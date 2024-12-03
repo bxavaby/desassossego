@@ -33,7 +33,7 @@
    git clone https://github.com/your-username/desassossego.git
    cd desassossego
    ```
-2. **Edit the absolute path to ldd.json in senon.go if you plan to run the program from a different directory:**:
+2. **Edit the absolute path to ldd.json in senon.go if you plan to run the program from a different directory:**
    ```bash
    fragments, err := ui.LoadFragments(
    		"frags/ldd.json",   // relative
