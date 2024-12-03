@@ -1,3 +1,4 @@
 # Go module files
 go.mod
 go.sum
+.ssh
