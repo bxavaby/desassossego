@@ -30,7 +30,7 @@
 ### Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/desassossego.git
+   git clone https://github.com/bxavaby/desassossego.git
    cd desassossego
    ```
 2. **Edit the absolute path to ldd.json in senon.go if you plan to run the program from a different directory:**
