@@ -13,12 +13,12 @@
 ## Features 🌟
 - **Fragment Navigation**: Enter the fragment number (1-433) to read any part of the book.
 - **Keyboard Shortcuts**:
-  - **`n`**: Go to the next fragment.
-  - **`p`**: Return to the previous fragment.
-  - **`b`**: Back to the fragment picker view.
+  - **`n`**: Next fragment.
+  - **`p`**: Previous fragment.
+  - **`b`**: Back to the fragment picker.
   - **`q`**: Quit the program anytime.
 - **Local JSON Storage**: The fragments are stored in `frags/ldd.json`, ensuring fast and offline access.
-- **Elegant Simplicity**: A no-frills design that puts the text front and center.
+- **Elegant & Simple**: A no-frills design that puts the text front and center.
 
 ---
 
@@ -35,8 +35,10 @@
    ```
 2. **Edit the absolute path to ldd.json in senon.go if you plan to run the program from a different directory:**:
    ```bash
-   // Replace with your absolute path
-   const jsonPath = "/absolute/path/to/frags/ldd.json"
+   fragments, err := ui.LoadFragments(
+   		"frags/ldd.json",   // relative
+   		"~/frags/ldd.json", // replace with your absolute path
+   	)
    ```
 3. **Build the Program**:
    ```bash
@@ -56,21 +58,19 @@
 ```plaintext
 .
 ├── frags
-│   └── ldd.json      # The Book of Disquiet fragments in JSON format
-├── go.mod            # Go module file
-├── go.sum            # Go module dependencies
-├── senon.go          # Main application logic
+│   └── ldd.json      # the 433 fragments
+├── senon.go          # entry point
 └── ui
-    ├── dsp.go        # Display-related functions
-    ├── nav.go        # Navigation logic
-    └── stl.go        # Style-related utilities
+    ├── dsp.go        # display-related
+    ├── nav.go        # navigation
+    └── stl.go        # style
 ```
 
 ---
 
 ## Future Plans 🔮
 - **SSH Book Server**: Transform "Desassossego" into an SSH-accessible book server for remote exploration.
-- **Expanded Catalogue**: Include more texts, creating a CLI library of literary treasures.
+- **Expanded Catalogue**: Use it as a template for other cli-suitable books.
 
 ---
 
