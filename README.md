@@ -1,6 +1,6 @@
 # Desassossego 📖
 
-**Desassossego** is a sleek, minimalistic CLI tool designed to immerse readers in the fragmented world of *O Livro do Desassossego* (*The Book of Disquiet*) by Fernando Pessoa. This program lets you explore the 433 fragments of Pessoa's masterpiece in an intuitive and distraction-free way.
+**Desassossego** is a sleek, minimalist CLI tool designed to immerse readers in the fragmented world of *O Livro do Desassossego* (*The Book of Disquiet*) by Fernando Pessoa. This program lets you explore the 433 fragments of Pessoa's masterpiece in an intuitive and distraction-free way.
 
 ---
 
