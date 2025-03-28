@@ -6,7 +6,7 @@
 
 ## **Demo**
 ![Desassossego Demo](assets/ldd.gif)  
-*Above: Check out the suaveness.*
+*⊹ check out the suaveness ⊹*
 
 ---
 
