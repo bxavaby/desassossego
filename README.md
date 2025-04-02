@@ -77,5 +77,7 @@
 ## License 📜
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Acknowledgments
+---
+
+### Acknowledgments
 > Inspired by *O Livro do Desassossego* (*The Book of Disquiet*), Fernando Pessoa.
