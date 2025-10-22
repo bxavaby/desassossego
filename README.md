@@ -10,7 +10,7 @@
 
 ---
 
-## Features 🌟
+## Features
 - **Fragment Navigation**: Enter the fragment number (1-433) to read any part of the book.
 - **Keyboard Shortcuts**:
   - **`n`**: Next fragment.
@@ -22,7 +22,7 @@
 
 ---
 
-## Getting Started 🚀
+## Getting Started
 
 ### Prerequisites
 - **Go**: Make sure [Go](https://golang.org/) is installed on your system.
@@ -68,7 +68,7 @@
 
 ---
 
-## Future Plans 🔮
+## Future Plans
 - **SSH Book Server**: Transform "Desassossego" into an SSH-accessible book server for remote exploration.
 - **Expanded Catalogue**: Use it as a template for other cli-suitable books.
 
