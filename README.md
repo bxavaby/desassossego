@@ -1,14 +1,12 @@
-# Desassossego 📖
+**Desassossego** is a minimal TUI designed to immerse readers in the fragmented world of *O Livro do Desassossego* (*The Book of Disquiet*).
 
-**Desassossego** is a sleek, minimalist CLI tool designed to immerse readers in the fragmented world of *O Livro do Desassossego* (*The Book of Disquiet*) by Fernando Pessoa. This program lets you explore the 433 fragments of Pessoa's masterpiece in an intuitive and distraction-free way.
-
----
+<br>
 
 ## **Demo**
 ![Desassossego Demo](assets/ldd.gif)  
 *⊹ check out the suaveness ⊹*
 
----
+<br>
 
 ## Features
 - **Fragment Navigation**: Enter the fragment number (1-433) to read any part of the book.
@@ -20,14 +18,12 @@
 - **Local JSON Storage**: The fragments are stored in `frags/ldd.json`, ensuring fast and offline access.
 - **Elegant & Simple**: A no-frills design that puts the text front and center.
 
----
+<br>
 
-## Getting Started
+## Installation
 
-### Prerequisites
-- **Go**: Make sure [Go](https://golang.org/) is installed on your system.
+- Make sure [Go](https://golang.org/) is installed on your system.
 
-### Installation
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/bxavaby/desassossego.git
@@ -52,32 +48,17 @@
    ```bash
    desassossego
    ```
----
-
-## **Project Structure**
-```plaintext
-.
-├── frags
-│   └── ldd.json      # the 433 fragments
-├── senon.go          # entry point
-└── ui
-    ├── dsp.go        # display-related
-    ├── nav.go        # navigation
-    └── stl.go        # style
-```
-
----
+   
+<br>
 
 ## Future Plans
 - **SSH Book Server**: Transform "Desassossego" into an SSH-accessible book server for remote exploration.
-- **Expanded Catalogue**: Use it as a template for other cli-suitable books.
+- **Expanded Catalogue**: Use it as a template for other SSH-suitable books.
 
----
+<br>
 
-## License 📜
 This project is licensed under the MIT License. See the LICENSE file for details.
 
----
+<br>
 
-### Acknowledgments
 > Inspired by *O Livro do Desassossego* (*The Book of Disquiet*), Fernando Pessoa.
