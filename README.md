@@ -1,4 +1,4 @@
-**Desassossego** is a minimal TUI designed to immerse readers in the fragmented world of *O Livro do Desassossego* (*The Book of Disquiet*).
+### **Desassossego** is a minimal TUI designed to immerse readers in the fragmented world of *O Livro do Desassossego* (*The Book of Disquiet*).
 
 <br>
 
