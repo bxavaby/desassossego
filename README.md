@@ -1,4 +1,4 @@
-### **Desassossego** is a minimal TUI designed to immerse readers in the fragmented world of *O Livro do Desassossego* (*The Book of Disquiet*).
+**Desassossego** is a minimal TUI designed to immerse readers in the fragmented world of *O Livro do Desassossego* (*The Book of Disquiet*).
 
 <br>
 
@@ -57,8 +57,6 @@
 
 <br>
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+#
 
-<br>
-
-> Inspired by *O Livro do Desassossego* (*The Book of Disquiet*), Fernando Pessoa.
+_Inspired by *O Livro do Desassossego* (*The Book of Disquiet*), Fernando Pessoa. This project is licensed under the MIT License._
