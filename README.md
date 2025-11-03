@@ -9,22 +9,21 @@
 <br>
 
 ## Features
-- **Fragment Navigation**: Enter the fragment number (1-433) to read any part of the book.
+- **Fragment Navigation**: Enter a fragment number (1-433) to read any part of the book.
 - **Keyboard Shortcuts**:
   - **`n`**: Next fragment.
   - **`p`**: Previous fragment.
-  - **`b`**: Back to the fragment picker.
-  - **`q`**: Quit the program anytime.
-- **Local JSON Storage**: The fragments are stored in `frags/ldd.json`, ensuring fast and offline access.
-- **Elegant & Simple**: A no-frills design that puts the text front and center.
+  - **`b`**: Back to fragment picker.
+  - **`q`**: Quit program.
+- **Local JSON Storage**: The fragments are stored in `frags/ldd.json`, for quick access.
 
 <br>
 
 ## Installation
 
-- Make sure [Go](https://golang.org/) is installed on your system.
+- Make sure [Go](https://golang.org/) is installed on your machine.
 
-1. **Clone the repository**:
+1. **Clone repo**:
    ```bash
    git clone https://github.com/bxavaby/desassossego.git
    cd desassossego
@@ -36,15 +35,15 @@
    		"~/frags/ldd.json", // replace with your absolute path
    	)
    ```
-3. **Build the Program**:
+3. **Build it**:
    ```bash
    go build -o desassossego
    ```
-4. **Move the Executable**:
+4. **Move the binary**:
    ```bash
    sudo mv desassossego /usr/local/bin/
    ```
-5. **Run the Program**:
+5. **Run it**:
    ```bash
    desassossego
    ```
@@ -52,8 +51,8 @@
 <br>
 
 ## Future Plans
-- **SSH Book Server**: Transform "Desassossego" into an SSH-accessible book server for remote exploration.
-- **Expanded Catalogue**: Use it as a template for other SSH-suitable books.
+- **SSH book server**: Transform "Desassossego" into an SSH-accessible book server.
+- **Expand catalogue**: Use it as a template for other suitable books.
 
 <br>
 
